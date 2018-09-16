@@ -33,7 +33,7 @@ class PostsController extends AppController
 
         $this->set([
                 'posts'=>$posts,
-                '_serialize'=>['post']
+                '_serialize'=>['posts']
             ]);
     }
 
